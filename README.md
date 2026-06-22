@@ -6,7 +6,11 @@
 - **Fecha:** 19/06/2026
 
 ---
+**Fecha:** 17/06/2026
 
+**Descripcion:**
+
+En esta práctica se implementó un árbol binario de enteros. Se desarrolló un método recursivo para agregar nodos y ordenar los datos, ubicando los números menores a la izquierda y los mayores a la derecha del árbol.
 
 ---
 

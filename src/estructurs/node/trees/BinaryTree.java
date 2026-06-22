@@ -117,5 +117,26 @@ public class BinaryTree<T extends Comparable<T >> {
         int peso = weightLeft + weightRight + 1;
         return peso + 1;
     }
+
+    public void printTree(Nodo<Integer> root){
+        System.out.println("Imprimiendo el arbol: ");
+        printTreeRecursivo(root, 0);
+    }
+
+    private void printTreeRecursivo(Nodo<Integer> actual, int nivel){
+        if (actual == null) {
+            return;
+        }
+
+        printTreeRecursivo(actual.getRight(), nivel + 1);
+
+        for (int i = 0; i < nivel; i++) {
+            System.out.print("\t");
+        }
+
+        System.out.println(actual);
+        printTreeRecursivo(actual.getLeft(), nivel + 1);
+    
+    }
 }
 

@@ -40,7 +40,7 @@ public class Nodo <T>{
 
     @Override
     public String toString() {
-        return "Nodo [value=" + value + "]";
+        return "Nodo ["+value+"]";
     }
 
     

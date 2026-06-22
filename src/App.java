@@ -1,5 +1,9 @@
+import java.util.stream.Gatherer.Integrator;
+
 import estructurs.node.Nodo;
 import estructurs.node.trees.BinaryTree;
+import estructurs.node.trees.Ejercicio1;
+import estructurs.node.trees.Ejercicio2;
 import estructurs.node.trees.IntTree;
 import models.Persona;
 
@@ -7,6 +11,22 @@ public class App {
     public static void main(String[] args) throws Exception {
         runIntTree();
         runBinaryTree();
+        System.out.println();
+        runEjercicios();
+    }
+
+    private static void runEjercicios() {
+        Ejercicio1 ejercicio1 = new Ejercicio1();
+        int [] numeros = new int[] { 5, 3, 7, 2, 4, 6,8 };
+        ejercicio1.insert(numeros);
+
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+        int [] numeros2 = new int[] {5, 3, 7, 2, 4, 6,8};
+        BinaryTree<Integer> tree = new BinaryTree<>();
+        for (int numero : numeros2)
+            tree.add(numero);
+        Nodo<Integer> root = tree.getRoot();
+        ejercicio2.invertTree(root);
     }
 
     private static void runBinaryTree() {
