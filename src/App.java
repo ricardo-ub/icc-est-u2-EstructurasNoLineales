@@ -1,5 +1,3 @@
-import java.util.stream.Gatherer.Integrator;
-
 import estructurs.node.Nodo;
 import estructurs.node.trees.BinaryTree;
 import estructurs.node.trees.Ejercicio1;
@@ -20,6 +18,7 @@ public class App {
         int [] numeros = new int[] { 5, 3, 7, 2, 4, 6,8 };
         ejercicio1.insert(numeros);
 
+        System.out.println();
         Ejercicio2 ejercicio2 = new Ejercicio2();
         int [] numeros2 = new int[] {5, 3, 7, 2, 4, 6,8};
         BinaryTree<Integer> tree = new BinaryTree<>();
