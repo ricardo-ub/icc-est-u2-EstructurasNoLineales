@@ -15,9 +15,11 @@ Explicacion del metodo: Se crea el arbol vacio luego se recorren los numeros del
 ![alt text](assets/metodoEjercicio1.png)
 
 Implementacion en el App.java:
+
 ![alt text](assets/ImplementacionE1.png)
 
 Salida en consola del Ejercicio 1:
+
 ![alt text](assets/consolaEjercicio1.png)
 
 ---
@@ -30,9 +32,11 @@ Explicacion del metodo: Primero invertimos el arbol original luego intercambiamo
 ![alt text](assets/metodoEjercicio2.png)
 
 Implementacion en el App.java:
+
 ![alt text](assets/ImplementacionE2.png)
 
 Salida en consola del Ejercicio 2:
+
 ![alt text](assets/consolaEjercicio2.png)
 
 Para estos 2 ejercicios se reutilizo el codigo de un metodo para imprimir los arboles:
@@ -51,9 +55,11 @@ Explicacion del metodo: Se crea una cola para recorrer al arbol desde la raiz e 
 ![alt text](assets/metodoEjercicio3.png)
 
 Implementacion en el App.java:
+
 ![alt text](assets/ImplementacionE3.png)
 
 Salida en consola del Ejercicio 3:
+
 ![alt text](assets/consolaEjercicio3.png)
 
 Para este ejercicio se utilizo otro metodo diferente para imprimir como una lista enlazada:
@@ -72,7 +78,9 @@ Explicacion del metodo: Si el nodo es nulo, devuelve 0 luego calcula la profundi
 ![alt text](assets/metodoEjercicio4.png)
 
 Implementacion en el App.java:
+
 ![alt text](assets/ImplementacionE4.png)
 
 Salida en consola del Ejercicio 2:
+
 ![alt text](assets/consolaEjercicio4.png)
