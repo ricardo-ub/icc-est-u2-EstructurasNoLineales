@@ -1,7 +1,11 @@
+import java.util.List;
+
 import estructurs.node.Nodo;
 import estructurs.node.trees.BinaryTree;
 import estructurs.node.trees.Ejercicio1;
 import estructurs.node.trees.Ejercicio2;
+import estructurs.node.trees.Ejercicio3;
+import estructurs.node.trees.Ejercicio4;
 import estructurs.node.trees.IntTree;
 import models.Persona;
 
@@ -26,6 +30,21 @@ public class App {
             tree.add(numero);
         Nodo<Integer> root = tree.getRoot();
         ejercicio2.invertTree(root);
+
+        System.out.println();
+        Ejercicio3 ejercicio3 = new Ejercicio3();
+        List<List<Nodo<Integer>>> niveles = ejercicio3.listLevels(tree.getRoot());
+        ejercicio3.printLevels(niveles);
+
+        System.out.println();
+        Ejercicio4 ejercicio4 = new Ejercicio4();
+        BinaryTree<Integer> tree4 = new BinaryTree<>();
+        int [] numeros4 = new int[] { 4, 2, 7, 1, 3, 8 };
+        for (int numero : numeros4) {
+            tree4.add(numero);
+        }
+        int profundidad = ejercicio4.maxDepth(tree4.getRoot());
+        System.out.println(profundidad);
     }
 
     private static void runBinaryTree() {
