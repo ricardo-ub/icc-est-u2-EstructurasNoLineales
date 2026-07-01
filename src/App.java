@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.Set;
 
+import collections.maps.Maps;
 import collections.set.Sets;
 import estructurs.node.Nodo;
 import estructurs.node.trees.BinaryTree;
@@ -19,6 +20,13 @@ public class App {
         // System.out.println();
         // runEjercicios();
         runSets();
+        runMaps();
+    }
+
+    private static void runMaps() {
+        Maps maps = new Maps();
+        System.out.println("* HashMap:");
+        maps.construirHashMap();
     }
 
     private static void runEjercicios() {
